@@ -43,7 +43,7 @@ function Playlistgeneratorpage() {
 
   return (
     <div className="text-center p-10 py-10 ">
-      <h2 className=" text-5xl py-10 text-white">
+      <h2 className=" text-5xl py-10 text-off-white">
         What kind of music are you{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-violet-500 to-pink-500">
           feeling?

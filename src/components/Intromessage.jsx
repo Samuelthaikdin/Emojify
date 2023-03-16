@@ -11,16 +11,16 @@ function Intromessage() {
 
   return (
     <div className="text-left  py-20">
-      <h2 className=" text-6xl py-10 text-white">
+      <h2 className=" text-6xl py-10 text-off-white">
         The ultimate Spotify playlist generator.
       </h2>
-      <p className="text-gray-200 py-5 text-lg ">
+      <p className="text-off-white py-5 text-lg ">
         Select emojis to describe your current mood or the type of music you
         want to listen to.
       </p>
       <Link to="/Playlistgenerator">
         <a>
-          <button class="transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  bg-white text-neutral-900 font-semibold px-5 py-2 rounded-full">
+          <button class="transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  bg-off-white text-neutral-900 font-semibold px-5 py-2 rounded-full">
             <svg
               className="float-right h-7 px-1"
               xmlns="http://www.w3.org/2000/svg"
