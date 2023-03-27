@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import SpotifyPlayer from "react-spotify-player";
 
-const CLIENT_ID = process.env.SPOTIFY_API_KEY;
-const CLIENT_SECRET = process.env.SPOTIFY_API_SECRET;
+const CLIENT_ID = "8f87cedabfd5479badf3afd679a0075b";
+const CLIENT_SECRET = "3cf45a3cfa2141f7abcb71741da40f9a";
 
 function Playlistgeneratorpage() {
   const [token, setToken] = useState("");
