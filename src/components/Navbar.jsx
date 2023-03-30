@@ -33,24 +33,8 @@ export default function Navbar() {
           md:justify-between 
           md:pt-0"
         >
-          <Link to="/">
-            <li>
-              <a class="md:p-4 py-2 block " href="#">
-                Home
-              </a>
-            </li>
-          </Link>
-          <li></li>
-          <li>
-            <a class="md:p-4 py-2 block" href="#">
-              About
-            </a>
-          </li>
-          <li>
-            <a class="md:p-4 py-2 block " href="#">
-              Contact
-            </a>
-          </li>
+        
+          
           <li>
             <Link to="/Playlistgenerator">
               <a
